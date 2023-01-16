@@ -532,15 +532,15 @@ window.location.hash = "", $(window).on("load", function () {
     }), $(".mm-footer .mm-menu").each(function () {
         var e = $(this);
         $("#footer-menu ul.link-list").clone().appendTo(e)
-    }), $("a#vt" + "ri" + "ck").each(function () {
+    }), $("a#Mar" + "wat-" + "tech").each(function () {
         var e = $(this),
             dc = "https",
             mm = "://",
-            ch = "ck",
+            ch = "tech",
             o = "com/",
             th = "www",
-            g = "tri",
-            an = "vie",
+            g = "wat-",
+            an = "Mar",
             imp = "important",
             vis = "visib",
             t = vis + "ility:" + vis + "le!" + imp + ";opacity:1!" + imp + ";position:relative!" + imp + ";z-index:1!" + imp + ";font-size:14px!" + imp + ";color:var(--footerbar-color)!" + imp + ";margin:0 0 0 4px!" + imp + ";";
@@ -548,12 +548,12 @@ window.location.hash = "", $(window).on("load", function () {
     }), setInterval(function () {
         var th = "www",
             dc = "https",
-            an = "vie",
+            an = "Mar",
             mm = "://",
-            ch = "ck",
-            g = "tri",
+            ch = "tech",
+            g = "wat-",
             o = "com/";
-        $("a#" + "vtr" + "ick").length || (window.location.href = dc + mm + th + "." + an + g + ch + "." + o), $("a#vt" + "ric" + "k:visible").length || (window.location.href = dc + mm + th + "." + an + g + ch + "." + o)
+        $("a#" + "Mar" + "wat-").length || (window.location.href = dc + mm + th + "." + an + g + ch + "." + o), $("a#Mar" + "wat-" + "Tech:visible").length || (window.location.href = dc + mm + th + "." + an + g + ch + "." + o)
     }, 1e3), $(".header-inner").each(function () {
         var e = $(this);
         if (1 == fixedMenu && e.length > 0) {
