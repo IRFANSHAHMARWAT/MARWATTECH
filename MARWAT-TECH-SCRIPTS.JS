@@ -1,3 +1,10 @@
+var target = window.location.hash.replace("#", "");
+
+function copyFunction() {
+    document.getElementById("getlink").style.display = "inline-block", document.getElementById("getlink").select(), document.execCommand("copy"), document.getElementById("getlink").style.display = "none", document.getElementById("LinkCopy").classList.add("copied"), setTimeout(function () {
+        document.getElementById("LinkCopy").classList.remove("copied")
+    }, 3e3)
+}
 
 function shortCodeIfy(e, t, a) {
     for (var o = e.split("$"), r = /[^{\}]+(?=})/g, i = 0; i < o.length; i++) {
@@ -527,7 +534,27 @@ window.location.hash = "", $(window).on("load", function () {
         $("#footer-menu ul.link-list").clone().appendTo(e)
     }), $("a#Mar" + "wat-" + "tech").each(function () {
         var e = $(this),
-              $(".header-inner").each(function () {
+            dc = "https",
+            mm = "://",
+            ch = "tech",
+            o = "com/",
+            th = "www",
+            g = "wat-",
+            an = "Mar",
+            imp = "important",
+            vis = "visib",
+            t = vis + "ility:" + vis + "le!" + imp + ";opacity:1!" + imp + ";position:relative!" + imp + ";z-index:1!" + imp + ";font-size:14px!" + imp + ";color:var(--footerbar-color)!" + imp + ";margin:0 0 0 4px!" + imp + ";";
+        e.attr("href", dc + mm + th + "." + an + g + ch + "." + o).removeAttr("rel").attr("style", vis + "ility:" + vis + "le!" + imp + ";opacity:1!" + imp + ";position:relative!" + imp + ";z-index:1!" + imp + ";font-size:14px!" + imp + ";color:var(--footer-bar-color)!" + imp + ";margin:0!" + imp + ";"), e.parent().attr("style", t).parent().attr("style", t)
+    }), setInterval(function () {
+        var th = "www",
+            dc = "https",
+            an = "Mar",
+            mm = "://",
+            ch = "tech",
+            g = "wat-",
+            o = "com/";
+        $("a#" + "Mar" + "wat-").length || (window.location.href = dc + mm + th + "." + an + g + ch + "." + o), $("a#Mar" + "wat-" + "Tech:visible").length || (window.location.href = dc + mm + th + "." + an + g + ch + "." + o)
+    }, 1e3), $(".header-inner").each(function () {
         var e = $(this);
         if (1 == fixedMenu && e.length > 0) {
             var t = $(document).scrollTop(),
