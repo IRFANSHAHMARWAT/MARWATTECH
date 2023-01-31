@@ -1,0 +1,15 @@
+{
+  "name": "Marwat Tech",
+  "short_name": "Marwat Tech",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPFQscP-ItY8WOiFw1zp8w1x12hP4KPB-vtYDxOI-iuGGmiKqWP7PCs3C3cQbe5-YS1jdLi_ohoNHaRUdkfgVFDe5R7ZtoEWfpJMbQJIoJxtUx8NGFdaWJhxtUk9RydPOytuPMTI3dycJ8_9Z2jisqcbUGKVStwBzoCEA10UISWfBGDJHPnjYFF-lkyg/s1600/marwattech.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://www.marwat-tech.com/index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
