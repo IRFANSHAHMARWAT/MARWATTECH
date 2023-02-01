@@ -337,7 +337,7 @@ window.location.hash = "", $(window).on("load", function () {
             scrollTop: $(t).offset().top - 10
         }, 750))
     })
-}), fixedMenu = "undefined" == typeof fixedMenu || fixedMenu, viewAllText = "undefined" != typeof viewAllText ? viewAllText : exportify.viewAll, $("#marwat-pro-main-nav").menuify(), $("#marwat-pro-main-nav .widget").addClass("show-menu"), $(".show-search").on("click", function () {
+}), fixedMenu = "undefined" == typeof fixedMenu || fixedMenu, viewAllText = "undefined" != typeof viewAllText ? viewAllText : exportify.viewAll, $("#vtrick-pro-main-nav").menuify(), $("#vtrick-pro-main-nav .widget").addClass("show-menu"), $(".show-search").on("click", function () {
     $("body").addClass("search-active"), $("#main-search-wrap").fadeIn(170).find("input").focus()
 }), $(".search-close").on("click", function () {
     $("body").removeClass("search-active"), $("#main-search-wrap").fadeOut(170).find("input").blur()
@@ -368,19 +368,19 @@ window.location.hash = "", $(window).on("load", function () {
     var e = $(this),
         t = e.text().toLowerCase().trim();
     t.match("{contactform}") && (e.replaceWith('<div class="contact-form"/>'), $(".contact-form").append($("#ContactForm1"))), t.match("{leftsidebar}") && ($("body").addClass("is-left"), e.remove()), t.match("{rightsidebar}") && ($("body").addClass("is-right").removeClass("is-left"), e.remove()), t.match("{fullwidth}") && ($("body").addClass("no-sidebar"), e.remove())
-}), $("#marwat-pro-new-before-ad").each(function () {
+}), $("#vtrick-pro-new-before-ad").each(function () {
     var e = $(this);
     e.length && $("#before-ad").appendTo(e)
-}), $("#marwat-pro-new-after-ad").each(function () {
+}), $("#vtrick-pro-new-after-ad").each(function () {
     var e = $(this);
     e.length && $("#after-ad").appendTo(e)
-}), $("#marwat-pro-main-before-ad .widget").each(function () {
+}), $("#vtrick-pro-main-before-ad .widget").each(function () {
     var e = $(this);
     e.length && e.appendTo($("#before-ad"))
-}), $("#marwat-pro-main-after-ad .widget").each(function () {
+}), $("#vtrick-pro-main-after-ad .widget").each(function () {
     var e = $(this);
     e.length && e.appendTo($("#after-ad"))
-}), $("#marwat-pro-post-footer-ads .widget").each(function () {
+}), $("#vtrick-pro-post-footer-ads .widget").each(function () {
     var e = $(this);
     e.length && e.appendTo($("#post-footer-ads"))
 }), $(".post-body blockquote").each(function () {
@@ -422,7 +422,7 @@ window.location.hash = "", $(window).on("load", function () {
         s = Math.round(r / 2 - a / 2),
         n = Math.round(i / 2 - o / 2);
     window.open(t, "_blank", "scrollbars=yes,resizable=yes,toolbar=no,location=yes,width=" + a + ",height=" + o + ",left=" + s + ",top=" + n).focus()
-}), $(".marwat-pro-share-links").each(function () {
+}), $(".vtrick-pro-share-links").each(function () {
     var e = $(this);
     e.find(".show-hid a").on("click", function () {
         e.toggleClass("show-hidden")
@@ -436,7 +436,7 @@ window.location.hash = "", $(window).on("load", function () {
             a = e.attr("href");
         e.replaceWith('<li class="' + t + '"><a href="' + a + '" title="' + t + '" rel="noopener noreferrer" target="_blank"/></li>')
     }), t.length && e.parent().append('<ul class="author-links social social-color"></ul>'), e.find("li").appendTo(".author-links")
-}), $("#marwat-pro-main-nav-menu li.mega-menu").each(function (e, t) {
+}), $("#vtrick-pro-main-nav-menu li.mega-menu").each(function (e, t) {
     var a = $(this),
         o = a.find("a").data("shortcode");
     null != o && (e = o.toLowerCase(), ajaxMega(a, "msimple", 5, shortCodeIfy(o, "label"), e))
@@ -461,16 +461,16 @@ window.location.hash = "", $(window).on("load", function () {
     null != i && (mtc = i.toLowerCase(), e = shortCodeIfy(i, "results"), t = shortCodeIfy(i, "label"), a = shortCodeIfy(i, "type"), r.on("load resize scroll", function i() {
         r.scrollTop() + r.height() >= o.offset().top && (r.off("load resize scroll", i), ajaxBlock(o, a, e, t, mtc))
     }).trigger("scroll"))
-}), $(".marwat-pro-widget-ready .HTML .widget-content").each(function (e, t, a, o) {
+}), $(".vtrick-pro-widget-ready .HTML .widget-content").each(function (e, t, a, o) {
     var r = $(this),
         i = $(window),
         s = r.data("shortcode");
     null != s && (e = s.toLowerCase(), t = shortCodeIfy(s, "results"), a = shortCodeIfy(s, "label"), o = shortCodeIfy(s, "type"), i.on("load resize scroll", function s() {
         i.scrollTop() + i.height() >= r.offset().top && (i.off("load resize scroll", s), ajaxWidget(r, o, t, a, e))
     }).trigger("scroll"))
-}), $("#marwat-pro-related-posts .HTML").each(function (e, t) {
+}), $("#vtrick-pro-related-posts .HTML").each(function (e, t) {
     var a = [];
-    $(".marwat-pro-related-content meta").each(function () {
+    $(".vtrick-pro-related-content meta").each(function () {
         a.push($(this).attr("content"))
     });
     var o = $(this).data("shortcode");
@@ -481,14 +481,14 @@ window.location.hash = "", $(window).on("load", function () {
         $("#related-wrap").each(function (e, t) {
             var o = $(this),
                 i = $(window),
-                s = o.find(".marwat-pro-related-content"),
+                s = o.find(".vtrick-pro-related-content"),
                 n = r();
             e = 0 != n[1] ? n[1] : 3, 0 != n[0] && o.find(".related-title .title > span").text(n[0]), t = o.find(".related-tag").data("label"), i.on("load resize scroll", function o() {
                 i.scrollTop() + i.height() >= s.offset().top && (i.off("load resize scroll", o), ajaxRelated(s, "related", e, t, a))
             }).trigger("scroll")
         })
     }
-}), $(".marwat-pro-blog-post-comments").each(function () {
+}), $(".vtrick-pro-blog-post-comments").each(function () {
     var e = $(this),
         t = e.data("shortcode"),
         a = shortCodeIfy(t, "type"),
@@ -509,21 +509,21 @@ window.location.hash = "", $(window).on("load", function () {
         e.addClass("comments-system-blogger").show(), $(".entry-meta .entry-comments-link").addClass("show"), r.addClass("btn")
     }
 }), $(function () {
-    $(".entry-image-wrap .entry-thumb,.author-avatar-wrap .author-avatar,#particle, .ratio-16-10").lazyify(), $("#marwat-pro-mobile-menu").each(function () {
+    $(".entry-image-wrap .entry-thumb,.author-avatar-wrap .author-avatar,#particle, .ratio-16-10").lazyify(), $("#vtrick-pro-mobile-menu").each(function () {
         var e = $(this),
-            t = $("#marwat-pro-main-nav-menu").clone();
+            t = $("#vtrick-pro-main-nav-menu").clone();
         t.attr("id", "main-mobile-nav"), t.find(".mega-items").remove(), t.find(".mega-menu > a").each(function (e, t) {
             var a = $(this),
                 o = a.data("shortcode");
             null != o && (t = "recent" == (e = shortCodeIfy(o.trim(), "label")) ? "/search" : "/search/label/" + e, a.attr("href", t))
-        }), t.appendTo(e), $(".mobile-menu-toggle, .hide-marwat-pro-mobile-menu, .overlay").on("click", function () {
+        }), t.appendTo(e), $(".mobile-menu-toggle, .hide-vtrick-pro-mobile-menu, .overlay").on("click", function () {
             $("body").toggleClass("nav-active")
-        }), $(".marwat-pro-mobile-menu .has-sub").append('<div class="submenu-toggle"/>'), $(".marwat-pro-mobile-menu .mega-menu").find(".submenu-toggle").remove(), $(".marwat-pro-mobile-menu ul li .submenu-toggle").on("click", function (e) {
+        }), $(".vtrick-pro-mobile-menu .has-sub").append('<div class="submenu-toggle"/>'), $(".vtrick-pro-mobile-menu .mega-menu").find(".submenu-toggle").remove(), $(".vtrick-pro-mobile-menu ul li .submenu-toggle").on("click", function (e) {
             $(this).parent().hasClass("has-sub") && (e.preventDefault(), $(this).parent().hasClass("show") ? $(this).parent().removeClass("show").find("> .m-sub").slideToggle(170) : $(this).parent().addClass("show").children(".m-sub").slideToggle(170))
         })
     }), $(".mm-footer .mm-social").each(function () {
         var e = $(this),
-            t = $("#marwat-pro-about-section ul.social").clone();
+            t = $("#vtrick-pro-about-section ul.social").clone();
         t.removeClass("social-bg-hover"), t.appendTo(e)
     }), $(".header-inner").each(function () {
         var e = $(this);
@@ -543,14 +543,14 @@ window.location.hash = "", $(window).on("load", function () {
     }), $("p.comment-content").each(function () {
         var e = $(this);
         e.replaceText(/(https:\/\/\S+(\.png|\.jpeg|\.jpg|\.gif))/g, '<img src="$1"/>'), e.replaceText(/(?:https:\/\/)?(?:www\.)?(?:youtube\.com)\/(?:watch\?v=)?(.+)/g, '<div class="responsive-video-wrap"><iframe id="youtube" width="100%" height="358" class="lazyload" data-src="https://www.youtube.com/embed/$1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>')
-    }), $("#marwat-pro-load-more-link").each(function () {
+    }), $("#vtrick-pro-load-more-link").each(function () {
         var e = $(this).data("load");
-        e && $("#marwat-pro-load-more-link").show(), $("#marwat-pro-load-more-link").on("click", function (t) {
-            $("#marwat-pro-load-more-link").hide(), $.ajax({
+        e && $("#vtrick-pro-load-more-link").show(), $("#vtrick-pro-load-more-link").on("click", function (t) {
+            $("#vtrick-pro-load-more-link").hide(), $.ajax({
                 url: e,
                 success: function (t) {
                     var a = $(t).find(".blog-posts");
-                    a.find(".index-post").addClass("post-animated post-fadeInUp"), $(".blog-posts").append(a.html()), (e = $(t).find("#marwat-pro-load-more-link").data("load")) ? $("#marwat-pro-load-more-link").show() : ($("#marwat-pro-load-more-link").hide(), $("#blog-pager .no-more").addClass("show"))
+                    a.find(".index-post").addClass("post-animated post-fadeInUp"), $(".blog-posts").append(a.html()), (e = $(t).find("#vtrick-pro-load-more-link").data("load")) ? $("#vtrick-pro-load-more-link").show() : ($("#vtrick-pro-load-more-link").hide(), $("#blog-pager .no-more").addClass("show"))
                 },
                 beforeSend: function () {
                     $("#blog-pager .loading").show()
@@ -560,13 +560,13 @@ window.location.hash = "", $(window).on("load", function () {
                 }
             }), t.preventDefault()
         })
-    }), $("#marwat-pro-cookie-ify").each(function () {
+    }), $("#vtrick-pro-cookie-ify").each(function () {
         var e = $(this),
             t = e.find(".widget.Text").data("shortcode");
-        null != t && (ok = shortCodeIfy(t, "ok"), days = shortCodeIfy(t, "days"), 0 != ok && e.find("#marwat-pro-cookie-ify-accept").text(ok), 0 != days ? days = Number(days) : days = 7), e.length > 0 && ("1" !== $.cookie("marwat_pro_cookie_ify_consent") && (e.css("display", "block"), $(window).on("load", function () {
+        null != t && (ok = shortCodeIfy(t, "ok"), days = shortCodeIfy(t, "days"), 0 != ok && e.find("#vtrick-pro-cookie-ify-accept").text(ok), 0 != days ? days = Number(days) : days = 7), e.length > 0 && ("1" !== $.cookie("vtrick_pro_cookie_ify_consent") && (e.css("display", "block"), $(window).on("load", function () {
             e.addClass("is-visible")
-        })), $("#marwat-pro-cookie-ify-accept").off("click").on("click", function (t) {
-            t.preventDefault(), t.stopPropagation(), $.cookie("marwat_pro_cookie_ify_consent", "1", {
+        })), $("#vtrick-pro-cookie-ify-accept").off("click").on("click", function (t) {
+            t.preventDefault(), t.stopPropagation(), $.cookie("vtrick_pro_cookie_ify_consent", "1", {
                 expires: days,
                 path: "/"
             }), e.removeClass("is-visible"), setTimeout(function () {
@@ -577,7 +577,7 @@ window.location.hash = "", $(window).on("load", function () {
         var e = $(this);
         $(window).on("scroll", function () {
             var t = window.innerHeight,
-                a = $("#marwat-pro-cta2-section ul.cta-containter");
+                a = $("#vtrick-pro-cta2-section ul.cta-containter");
             $(this).scrollTop() >= 100 ? (e.fadeIn(170), a.hasClass("has-backtop") || (a.animate({
                 bottom: "+=46px"
             }, 170), a.addClass("has-backtop"))) : (e.fadeOut(170), a.hasClass("has-backtop") && (a.animate({
