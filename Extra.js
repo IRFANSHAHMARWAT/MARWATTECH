@@ -1,32 +1,32 @@
-// ----------------this JS written by Irfan shah marwat and its timer for download button--------------// 
+ // ----------------this JS writted by Irfan shah marwat and its timer for download button--------------// 
 (function(){
-    var message = "%d seconds before download link appears";
-    // seconds before download link becomes visible
-    var count = 30;
-    var countdown_element = document.getElementById("countdown");
-    var download_link = document.getElementById("download_link");
-    var promo_code = document.getElementById("promo_code");
-    var timer = setInterval(function(){
-        // if countdown equals 0, the next condition will evaluate to false and the else-construct will be executed
-        if (count) {
-            // display text
-            countdown_element.innerHTML = "You have to wait %d seconds.".replace("%d", count);
-            // decrease counter
-            count--;
-        } else {
-            // stop timer
-            clearInterval(timer);
-            // hide countdown
-            countdown_element.style.display = "none";
-            // show download link
-            download_link.style.display = "";
-            promo_code.style.display = "";
-            promo_code.style.display = "";
-        }
-    }, 1000);
-})();
-
-// ----------------this JS written by Irfan shah marwat and its social lock for subscription and likes --------------//
+           var message = "%d seconds before download link appears";
+           // seconds before download link becomes visible
+           var count = 30;
+           var countdown_element = document.getElementById("countdown");
+           var download_link = document.getElementById("download_link");
+           var promo_code = document.getElementById("promo_code");
+           var center_social = document.getElementById("center_social");
+           var timer = setInterval(function(){
+              // if countdown equals 0, the next condition will evaluate to false and the else-construct will be executed
+              if (count) {
+                  // display text
+                  countdown_element.innerHTML = "You have to wait %d seconds.".replace("%d", count);
+                  // decrease counter
+                  count--;
+              } else {
+                  // stop timer
+                  clearInterval(timer);
+                  // hide countdown
+                  countdown_element.style.display = "none";
+                  // show download link
+                  download_link.style.display = "";
+                  promo_code.style.display = "";
+                  center_social.style.display = "";
+              }
+           }, 1000);
+        })();
+        // ----------------this JS writted by Irfan shah marwat and its social lock for susbcription and likes --------------//
 (function() {
     var sl = document.querySelector("#sociallocker");
     var slc = document.querySelector("#sociallocker-content");
