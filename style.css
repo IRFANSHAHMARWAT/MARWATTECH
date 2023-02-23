@@ -46,7 +46,7 @@
 }
 a:hover {
     background: var(--rgba-gray);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .gradient {
     display: block;
