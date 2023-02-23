@@ -1,0 +1,170 @@
+
+   @import &quot;https://use.fontawesome.com/releases/v5.0.10/css/all.css&quot;;
+
+.md-opjjpmhoiojifppkkcdabiobhakljdgm_doc{
+    display: block;
+  width: 320px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+  transform: translatez(0);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 24px;
+    font-weight: normal;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.3);
+    text-align: center;
+    border-radius: 50px;
+  padding: 26px;
+  color: white;
+  background: rgb(109, 67, 207);
+  transition: all 0.2s ease-out 0s;
+}
+
+.MEOW {
+    display: block;
+  width: 320px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+  transform: translatez(0);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 24px;
+    font-weight: normal;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.2);
+    text-align: center;
+    border-radius: 50px;
+  padding: 26px;
+  color: white;
+  background: rgb(109, 67, 207);
+  transition: all 0.2s ease-out 0s;
+}
+a:hover {
+    background: linear-gradient(102deg, rgb(255, 4, 4), #1c6fdb);
+}
+.gradient {
+    display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  bottom: auto;
+  margin: auto;
+  z-index: -1;
+  background: radial-gradient(90px circle at top center, rgba(253, 0, 198, 0.616) 30%, rgba(255,255,255,0));
+  transition: all 0s ease-out 0s;
+    transform: translatex(-140px);
+    animation: 18s linear 0s infinite move;
+}
+
+@keyframes move {
+    0% {
+        transform: translatex(-140px);
+    }
+    25% {
+        transform: translatex(140px);
+        opacity: 0.3;
+    }
+    50% {
+        transform: translatex(140px);
+        opacity: 1;
+        background: radial-gradient(90px circle at bottom center, rgba(63, 232, 238, 0.8) 30%, rgba(255,255,255,0));
+    }
+    75% {
+        transform: translatex(-140px);
+        opacity: 0.3;
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translatex(-140px);
+        background: radial-gradient(90px circle at top center, rgba(0, 188, 245, 0.5) 30%, rgba(255,255,255,0));
+    } }
+
+#sociallocker {
+	background-color: #EEEEEE;
+	text-align: center;
+	position: relative;
+	max-width: 500px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	border-radius:10px;
+}
+#sociallocker-overlay {
+	background-color: rgba(0,0,0,0.6);
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	transition: all 0.2s ease;
+}
+#sociallocker-overlay i {
+	margin-right: 10px;
+}
+#sociallocker:hover #sociallocker-overlay {
+	top: -100%;
+	transition: all 0.2s linear;
+}
+#sociallocker:hover #sociallocker-content {
+	top: 100%;
+	transition: all 0.2s linear;
+}
+#sociallocker-content a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #777777;
+	color: #f9f9f9;
+	border-radius: 4px;
+	font-weight: bold;
+}
+#sociallocker-overlay,
+#sociallocker-content,
+#sociallocker-links {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+}
+#sociallocker-content {
+	background-color: #187717;
+	transition: all 0.2s ease;
+}
+.social-1 {
+	text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    overflow: hidden;
+	margin-right: 5px;
+}
+.social-1 i {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+    height: 100%;
+}
+.social-1:hover i {
+	background-color: rgba(0,0,0,0.1);
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+.fb { background-color: #4561A8; }
+.yt { background-color: #f50000; }
+.gp { background-color: #BF3B28; }
+.in { background-color: #1679B1; }
+.pi { background-color: #D9303C; }
+.su { background-color: #E84930; }
