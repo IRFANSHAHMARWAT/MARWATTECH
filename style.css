@@ -45,7 +45,8 @@
   transition: all 0.2s ease-out 0s;
 }
 a:hover {
-    background: linear-gradient(102deg, rgb(255, 4, 4), #1c6fdb);
+    background: var(--rgba-gray);
+    border-radius: 15px;
 }
 .gradient {
     display: block;
