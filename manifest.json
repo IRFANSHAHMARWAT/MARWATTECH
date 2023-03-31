@@ -1,6 +1,16 @@
 {
-  "name": "Marwat Tech",
-  "short_name": "Marwat Tech",
+ "name": "Marwat Tech",
+ "short_name": "Marwat Tech",
+ "description": "Premium Quality Fee Mockups, Make Right Here, The biggest source of free web development courses,  blogger , html 5, Wordpress, Shopify themes scripts",
+ "lang": "id",
+ "dir": "ltr",
+ "theme_color": "#fdd929",
+ "start_url": "https://www.marwat-tech.com/",
+ "background_color": "#fff",
+ "display": "standalone",
+ "orientation": "portrait-primary",
+ "version": "2.0.0",
+ "author": "IRFAN SHAH MARWAT",
   "icons": [
     {
       "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPFQscP-ItY8WOiFw1zp8w1x12hP4KPB-vtYDxOI-iuGGmiKqWP7PCs3C3cQbe5-YS1jdLi_ohoNHaRUdkfgVFDe5R7ZtoEWfpJMbQJIoJxtUx8NGFdaWJhxtUk9RydPOytuPMTI3dycJ8_9Z2jisqcbUGKVStwBzoCEA10UISWfBGDJHPnjYFF-lkyg/s1600/marwattech.png",
@@ -12,54 +22,63 @@
         "sizes": "48x48",
         "type": "image/png",
         "purpose": "maskable any"
+        "density": "0.75"
         },
         {
         "src": "https://raw.githubusercontent.com/IRFANSHAHMARWAT/MARWATTECH/main/icon-72x72.png",
         "sizes": "72x72",
         "type": "image/png",
         "purpose": "maskable any"
+        "density": "1.0"
         },
         {
         "src": "https://raw.githubusercontent.com/IRFANSHAHMARWAT/MARWATTECH/main/icon-96x96.png",
         "sizes": "96x96",
         "type": "image/png",
         "purpose": "maskable any"
+        "density": "1.5"  
         },
         {
         "src": "https://raw.githubusercontent.com/IRFANSHAHMARWAT/MARWATTECH/main/icon-128x128.png",
         "sizes": "128x128",
         "type": "image/png",
         "purpose": "maskable any"
+        "density": "2.0"
         },
         {
         "src": "https://raw.githubusercontent.com/IRFANSHAHMARWAT/MARWATTECH/main/icon-144x144.png",
         "sizes": "144x144",
         "type": "image/png",
         "purpose": "maskable any"
+        "density": "3.0"
         },
         {
         "src": "https://raw.githubusercontent.com/IRFANSHAHMARWAT/MARWATTECH/main/icon-152x152.png",
         "sizes": "152x152",
         "type": "image/png",
         "purpose": "maskable any"
+        "density": "4.0"  
         },
         {
         "src": "https://raw.githubusercontent.com/IRFANSHAHMARWAT/MARWATTECH/main/icon-192x192.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "maskable any"
+        "density": "5.0"  
         },
         {
         "src": "https://raw.githubusercontent.com/IRFANSHAHMARWAT/MARWATTECH/main/icon-384x384.png",
         "sizes": "384x384",
         "type": "image/png",
         "purpose": "maskable any"
+        "density": "6.0"  
         },
         {
         "src": "https://raw.githubusercontent.com/IRFANSHAHMARWAT/MARWATTECH/main/icon-512x512.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable any"
+        "density": "7.0"  
         }
   ],
   "start_url": "https://www.marwat-tech.com/index.html",
