@@ -25,7 +25,7 @@
 
 .MEOW {
     display: block;
-  width: 320px;
+  width: auto;
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 0;
@@ -43,6 +43,8 @@
   color: white;
   background: rgb(109, 67, 207);
   transition: all 0.2s ease-out 0s;
+}
+.MEOW:hover{ box-shadow: 0 9px 18px rgba(0,0,0,0.2);!importan;
 }
 a:hover {
     background: var(--rgba-gray);
@@ -128,6 +130,9 @@ a:hover {
 	max-width: max-content;
 	font-weight: bold;
 }
+#sociallocker-content a:hover{
+
+}
 #sociallocker-overlay,
 #sociallocker-content,
 #sociallocker-links {
@@ -141,7 +146,7 @@ a:hover {
 	left: 0;
 }
 #sociallocker-content {
-	background-color: #187717;
+	background-color: #1877170f;
 	transition: all 0.2s ease;
 }
 .social-1 {
