@@ -44,11 +44,10 @@
   background: rgb(109, 67, 207);
   transition: all 0.2s ease-out 0s;
 }
-.MEOW:hover{ box-shadow: 0 9px 18px rgba(0,0,0,0.2);!importan;
-}
 a:hover {
     background: var(--rgba-gray);
     border-radius: 10px;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.2);!importan;
 }
 .gradient {
     display: block;
