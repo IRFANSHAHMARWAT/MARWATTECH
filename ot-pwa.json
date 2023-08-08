@@ -1,0 +1,131 @@
+/*{
+  "name": "OT DUHS",
+  "short_name": "OT DUHS",
+  "description": "its Dow univeristy of health sciences OT deparmtnet app made by Irfanullah shah marwat web developer but working in dow as receptionist",
+  "lang": "id",
+  "dir": "ltr",
+  "theme_color": "#fdd929",
+  "start_url": "https://ot.marwat-tech.com/",
+  "background_color": "#fff",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "version": "2.0.0",
+  "author": "IRFAN SHAH MARWAT",
+   "icons": [
+     {
+       "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+       "sizes": "192x192",
+       "type": "image/png"
+     }
+     {
+         "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+         "sizes": "48x48",
+         "type": "image/png",
+         "purpose": "maskable any"
+         "density": "0.75"
+         },
+         {
+         "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+         "sizes": "72x72",
+         "type": "image/png",
+         "purpose": "maskable any"
+         "density": "1.0"
+         },
+         {
+         "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+         "sizes": "96x96",
+         "type": "image/png",
+         "purpose": "maskable any"
+         "density": "1.5"  
+         },
+         {
+         "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+         "sizes": "128x128",
+         "type": "image/png",
+         "purpose": "maskable any"
+         "density": "2.0"
+         },
+         {
+         "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+         "sizes": "144x144",
+         "type": "image/png",
+         "purpose": "maskable any"
+         "density": "3.0"
+         },
+         {
+         "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+         "sizes": "152x152",
+         "type": "image/png",
+         "purpose": "maskable any"
+         "density": "4.0"  
+         },
+         {
+         "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+         "sizes": "192x192",
+         "type": "image/png",
+         "purpose": "maskable any"
+         "density": "5.0"  
+         },
+         {
+         "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+         "sizes": "384x384",
+         "type": "image/png",
+         "purpose": "maskable any"
+         "density": "6.0"  
+         },
+         {
+         "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+         "sizes": "512x512",
+         "type": "image/png",
+         "purpose": "maskable any"
+         "density": "7.0"  
+         }
+   ],
+   "start_url": "https://ot.marwat-tech.com/index.html",
+   "display": "standalone",
+   "theme_color": "#5b6c77",
+   "background_color": "#ffffff"
+ }
+ 
+ */
+ 
+ 
+ {
+   "name": "OT DUHS",
+   "short_name": "OT DUHS",
+   "start_url": "https://ot.marwat-tech.com/",
+   "display": "standalone",
+   "background_color": "#fff",
+   "theme_color": "#f89000",
+   "description": "Premium Quality Fee Mockups, Make Right Here, The biggest source of free web development courses,  blogger , html 5, Wordpress, Shopify themes scripts",
+   "icons": [{
+     "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+     "sizes": "48x48",
+     "type": "image/png"
+   }, {
+     "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+     "sizes": "72x72",
+     "type": "image/png"
+   }, {
+     "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+     "sizes": "96x96",
+     "type": "image/png"
+   }, {
+     "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+     "sizes": "144x144",
+     "type": "image/png"
+   }, {
+     "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+     "sizes": "152x152",
+     "type": "image/png"
+   }, {
+     "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+     "sizes": "192x192",
+     "type": "image/png"
+   }, {
+     "src": "https://www.duhs.edu.pk/assets/image/icons/apple-touch-icon.png",
+     "sizes": "512x512",
+     "type": "image/png"
+   }]
+ }
+ 
